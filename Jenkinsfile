@@ -1,15 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Clean') {
+    stage('clean') {
       steps {
-        sh 'mvn clean'
-      }
-    }
-
-    stage('Test') {
-      steps {
-        sh 'mvn test -p Regression'
+        powershell 'mvn test -P Regression'
       }
     }
 
