@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-26T17:41:19 IST" name="Suite" finished-at="2022-03-26T17:41:58 IST" duration-ms="39570">
+    <groups>
+    </groups>
+    <test started-at="2022-03-26T17:41:19 IST" name="Test" finished-at="2022-03-26T17:41:58 IST" duration-ms="39570">
+      <class name="seleniumGrid.SeleniumGrid2">
+        <test-method signature="test2()[pri:0, instance:seleniumGrid.SeleniumGrid2@41fecb8b]" started-at="2022-03-26T17:41:19 IST" name="test2" finished-at="2022-03-26T17:41:53 IST" duration-ms="33892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- seleniumGrid.SeleniumGrid2 -->
+      <class name="seleniumGrid.SeleniumGrid3">
+        <test-method signature="test3()[pri:0, instance:seleniumGrid.SeleniumGrid3@272ed83b]" started-at="2022-03-26T17:41:19 IST" name="test3" finished-at="2022-03-26T17:41:58 IST" duration-ms="39421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- seleniumGrid.SeleniumGrid3 -->
+      <class name="seleniumGrid.SeleniumGrid1">
+        <test-method signature="test1()[pri:0, instance:seleniumGrid.SeleniumGrid1@120f102b]" started-at="2022-03-26T17:41:19 IST" name="test1" finished-at="2022-03-26T17:41:50 IST" duration-ms="30799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- seleniumGrid.SeleniumGrid1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
