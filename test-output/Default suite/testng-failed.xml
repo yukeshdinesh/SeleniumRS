@@ -6,7 +6,7 @@
       <class name="seleniumGrid.SeleniumGrid1">
         <methods>
           <include name="setupClass"/>
-          <include name="test2"/>
+          <include name="failtest2"/>
         </methods>
       </class> <!-- seleniumGrid.SeleniumGrid1 -->
     </classes>
