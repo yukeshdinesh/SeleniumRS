@@ -15,7 +15,7 @@ pipeline {
 
     stage('') {
       steps {
-        bat 'mvn test -P $Tags'
+        bat 'mvn test -P ${params.Tags}'
       }
     }
 
