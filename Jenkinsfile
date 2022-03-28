@@ -1,5 +1,6 @@
 pipeline {
   agent any
+  properties([parameters([choice(choices: ['Regression', 'Sanity', 'Smoke'], name: 'Tags')])])
   stages {
     stage('clean') {
       steps {
@@ -9,7 +10,7 @@ pipeline {
 
     stage('') {
       steps {
-        bat 'mvn test'
+        bat 'mvn test -P Tags'
       }
     }
 
