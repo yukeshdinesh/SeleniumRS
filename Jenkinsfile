@@ -1,6 +1,8 @@
 pipeline {
   agent any
-  properties([parameters([choice(choices: ['Regression', 'Sanity', 'Smoke'], name: 'Tags')])])
+  triggers {
+        cron('* * * * *')
+    }
   stages {
     stage('clean') {
       steps {
