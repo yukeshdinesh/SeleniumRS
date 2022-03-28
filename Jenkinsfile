@@ -1,8 +1,11 @@
 pipeline {
   agent any
   triggers {
-        cron('* * * * *')
+        cron('H * * * *')
     }
+  parameters {
+  choice choices: ['Regression', 'Smoke', 'Sanity'], name: 'Tags'
+}
   stages {
     stage('clean') {
       steps {
