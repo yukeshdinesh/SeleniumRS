@@ -3,7 +3,13 @@ pipeline {
   stages {
     stage('clean') {
       steps {
-        powershell 'mvn test -P Regression'
+        bat 'mvn clean'
+      }
+    }
+
+    stage('') {
+      steps {
+        bat 'mvn test'
       }
     }
 
