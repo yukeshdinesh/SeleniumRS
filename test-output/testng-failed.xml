@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumGrid.SeleniumGrid1">
+      <class name="dropdowns.CheckBoxes">
         <methods>
-          <include name="setupClass"/>
-          <include name="failtest2"/>
+          <include name="assignment"/>
         </methods>
-      </class> <!-- seleniumGrid.SeleniumGrid1 -->
+      </class> <!-- dropdowns.CheckBoxes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
