@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dropdowns.CheckBoxes">
+      <class name="dropdowns.EndToEnd">
         <methods>
-          <include name="assignment"/>
+          <include name="e2e"/>
         </methods>
-      </class> <!-- dropdowns.CheckBoxes -->
+      </class> <!-- dropdowns.EndToEnd -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

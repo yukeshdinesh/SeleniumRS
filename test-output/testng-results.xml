@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-07T14:05:41 IST" name="Default suite" finished-at="2022-05-07T14:05:47 IST" duration-ms="6796">
+  <suite started-at="2022-05-10T22:03:54 IST" name="Default suite" finished-at="2022-05-10T22:04:08 IST" duration-ms="14022">
     <groups>
     </groups>
-    <test started-at="2022-05-07T14:05:41 IST" name="Default test" finished-at="2022-05-07T14:05:47 IST" duration-ms="6796">
-      <class name="dropdowns.CheckBoxes">
-        <test-method signature="assignment()[pri:0, instance:dropdowns.CheckBoxes@7c891ba7]" started-at="2022-05-07T14:05:41 IST" name="assignment" finished-at="2022-05-07T14:05:47 IST" duration-ms="6713" status="PASS">
+    <test started-at="2022-05-10T22:03:54 IST" name="Default test" finished-at="2022-05-10T22:04:08 IST" duration-ms="14022">
+      <class name="actions.ActionsHandson">
+        <test-method signature="actions1()[pri:0, instance:actions.ActionsHandson@66498326]" started-at="2022-05-10T22:03:54 IST" name="actions1" finished-at="2022-05-10T22:04:08 IST" duration-ms="13937" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assignment -->
-      </class> <!-- dropdowns.CheckBoxes -->
+        </test-method> <!-- actions1 -->
+      </class> <!-- actions.ActionsHandson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
